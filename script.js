@@ -1,0 +1,7 @@
+console.log('3+4')
+console.log(3+4)
+console.warn('Hey Stop it')
+console.error('Stopppp')
+document.getElementById('click')
+document.querySelector('h1')
+document.querySelectorAll('button')
