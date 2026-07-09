@@ -2,25 +2,30 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 # 📖 Overview
 
-This repository documents my JavaScript learning journey through practical examples and hands-on coding exercises. It covers JavaScript fundamentals, HTML integration, browser interactions, DOM manipulation, and event handling.
+This repository contains my JavaScript learning journey through hands-on coding exercises, browser-based examples, and mini projects. It covers the fundamentals of JavaScript, DOM manipulation, event handling, operators, conditional logic, browser APIs, and practical applications.
 
-The primary goal of this repository is to strengthen core JavaScript concepts required for Frontend and Full Stack Web Development.
+The goal of this repository is to build a strong foundation for Frontend and Full Stack Web Development using modern JavaScript.
 
 ---
 
-# 🎯 Objectives
+# 🎯 Learning Objectives
 
 * Learn JavaScript Fundamentals
-* Understand JavaScript Integration with HTML
+* Understand Variables and Data Types
+* Practice Operators and Expressions
+* Master Conditional Statements
+* Explore Logical Operators
+* Learn Scope and Variable Lifetime
+* Understand Truthy and Falsy Values
 * Practice DOM Manipulation
-* Explore Browser APIs
-* Learn Event Handling
-* Build Interactive Web Pages
+* Handle Browser Events
+* Build Interactive Mini Projects
 
 ---
 
@@ -30,6 +35,7 @@ The primary goal of this repository is to strengthen core JavaScript concepts re
 
 * JavaScript (ES6+)
 * HTML5
+* CSS3
 
 ### Development Tools
 
@@ -44,9 +50,19 @@ The primary goal of this repository is to strengthen core JavaScript concepts re
 ```text
 JavaScript/
 │
+├── Variables.html
+├── boolean.html
+├── logical operator.html
+├── Ifalternative.html
+├── truthyandfalsy.html
+├── scope.html
 ├── jsinsidebody.html
 ├── jsusinglink.html
 ├── script.js
+│
+├── Cricket.html
+├── metroTicket.html
+│
 └── README.md
 ```
 
@@ -54,76 +70,110 @@ JavaScript/
 
 # 📚 Topics Covered
 
-## 📌 JavaScript Inside HTML
+## 📌 JavaScript Basics
 
-Demonstrates how JavaScript can be written directly inside the HTML document using the `<script>` tag.
-
-### Concepts Covered
-
-* Alert Box
-* Console Output
-* Console Warning
-* Console Error
-* Arithmetic Operations
-* String Concatenation
+* Variables
+* Data Types
+* Arithmetic Operators
+* Assignment Operators
+* Template Literals
+* Math Object
 
 ---
 
-## 📌 External JavaScript File
+## 📌 Variables & Expressions
 
-Demonstrates linking JavaScript using an external file.
+Learned concepts:
 
-### Concepts Covered
-
-* External Script Linking
-* Code Reusability
-* Better Project Organization
+* Variable Declaration
+* Updating Variables
+* Arithmetic Calculations
+* Template Strings
+* Mathematical Functions
 
 ---
 
-## 📌 HTML and JavaScript Integration
+## 📌 Boolean & Comparison Operators
+
+Covered concepts:
+
+* Boolean Values
+* Comparison Operators
+* Equality vs Strict Equality
+* Conditional Logic
+* if...else Statements
+
+---
+
+## 📌 Conditional Statements
+
+Implemented:
+
+* if
+* if...else
+* else if
+* Nested Conditions
+
+---
+
+## 📌 Alternative Conditional Operators
 
 Examples include:
 
-* Buttons
-* Headings
-* Links
-* Paragraphs
-* DOM Elements
+* Ternary Operator
+* Guard Operator (`||`)
+* Nullish Coalescing Operator (`??`)
 
 ---
 
-## 📌 Browser Console Methods
+## 📌 Logical Operators
 
-The repository demonstrates:
+Practiced:
+
+* AND (`&&`)
+* OR (`||`)
+* NOT (`!`)
+
+---
+
+## 📌 Scope
+
+Learned:
+
+* Block Scope
+* Variable Scope
+* Local Variables
+* Global Variables
+
+---
+
+## 📌 Truthy & Falsy Values
+
+Examples using:
+
+* Empty String
+* Undefined
+* Null
+* Boolean Values
+
+---
+
+## 📌 Browser Console
+
+Used:
 
 ```javascript
-alert()
-
 console.log()
-
 console.warn()
-
 console.error()
+alert()
 ```
 
 ---
 
-## 📌 Event Handling
+## 📌 DOM Manipulation
 
-Basic JavaScript event handling using HTML attributes.
-
-Examples include:
-
-* Button Click Events
-* Alert Messages
-* User Interaction
-
----
-
-## 📌 DOM Basics
-
-Introduction to selecting HTML elements using:
+Practiced selecting HTML elements using:
 
 ```javascript
 document.getElementById()
@@ -134,6 +184,62 @@ document.querySelector()
 
 document.querySelectorAll()
 ```
+
+---
+
+## 📌 Event Handling
+
+Implemented:
+
+* Button Click Events
+* Inline Event Handlers
+* Alert Messages
+* User Interaction
+
+---
+
+# 🎮 Mini Projects
+
+## 🏏 Cricket Game
+
+A simple browser game where the player selects:
+
+* Bat
+* Ball
+* Stump
+
+The computer randomly selects an option, and the winner is determined based on predefined game rules.
+
+### Concepts Used
+
+* Random Number Generation
+* Conditional Statements
+* Variables
+* Template Literals
+* Alerts
+* Event Handling
+
+---
+
+## 🚇 Metro Ticket Discount Calculator
+
+Calculates ticket discounts based on:
+
+* Age
+* Gender
+
+### Business Rules
+
+* Children receive free tickets.
+* Females receive discounted fares.
+* Senior citizens receive concessions.
+
+### Concepts Used
+
+* if...else
+* Logical Operators
+* Variables
+* Console Output
 
 ---
 
@@ -151,66 +257,50 @@ git clone https://github.com/nigamkumar3435-spec/JavaScript.git
 cd JavaScript
 ```
 
-Open any HTML file in your preferred web browser.
+Open any HTML file in your browser.
 
-Examples:
+Example:
 
-* `jsinsidebody.html`
-* `jsusinglink.html`
+```text
+Variables.html
 
----
+boolean.html
 
-# 💡 Concepts Learned
+Cricket.html
 
-* JavaScript Syntax
-* Variables and Expressions
-* Browser Dialogs
-* Console Methods
-* HTML Integration
-* External JavaScript Files
-* DOM Element Selection
-* Event Handling
-* Basic Debugging
+metroTicket.html
+```
 
 ---
 
-# 🎯 Learning Outcomes
+# 🎯 Skills Developed
 
-This repository helped me understand:
-
-* How JavaScript works inside web pages
-* Different ways to include JavaScript in HTML
-* Browser console debugging
-* Basic DOM manipulation
-* User interaction using events
-* Writing clean and modular JavaScript code
-
----
-
-# 🔮 Future Enhancements
-
-This repository will be expanded to include:
-
+* JavaScript Fundamentals
 * Variables & Data Types
-* Operators
-* Conditional Statements
-* Loops
-* Functions
-* Arrays
-* Objects
-* Strings
-* ES6 Features
+* Conditional Programming
+* Logical Thinking
 * DOM Manipulation
-* Form Validation
-* Event Listeners
-* Local Storage
-* Fetch API
-* Asynchronous JavaScript
-* Mini Projects
-* Calculator
-* To-Do List
-* Weather App
-* Quiz Application
+* Browser APIs
+* Event Handling
+* Interactive Web Development
+* Debugging using Console
+* Problem Solving
+
+---
+
+# 📈 Learning Outcomes
+
+This repository demonstrates practical understanding of:
+
+* Core JavaScript Syntax
+* Browser Console
+* DOM Selection Methods
+* Event Handling
+* Conditional Programming
+* Scope Management
+* Truthy and Falsy Values
+* Interactive Mini Projects
+* JavaScript Integration with HTML
 
 ---
 
@@ -232,8 +322,6 @@ This repository will be expanded to include:
 
 If you found this repository useful, please consider giving it a ⭐ on GitHub.
 
-Happy Coding! 🚀
-
 ---
 
-### 💻 "Every great developer starts by mastering the fundamentals."
+
