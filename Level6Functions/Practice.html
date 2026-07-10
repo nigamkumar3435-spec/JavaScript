@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice Exercise</title>
+</head>
+<body>
+    <script>
+        //1. to check if a number is odd or even.
+
+        /*function check(num)
+        {
+            if(num%2==0)
+                console.log('even');
+            else
+                console.log(`odd`);
+        }
+        check(78);
+        check(43);
+        */
+        function isOdd(num)
+        {
+            let rem=num%2;
+            let isOdd = rem == 1;
+            return isOdd;
+        }
+        console.log(isOdd(5));
+        console.log(isOdd(6));
+        //2. to return larger of the two numbers.
+
+        function larger(x,y)
+        {
+            /*if(x>y)
+            return x;
+            else 
+            return y;*/
+            return x>y?x:y;
+        }
+        console.log(larger(4,7));
+        console.log(larger(9,3));
+
+        //3. to convert celsius to fahrenheit.
+
+        function convert(celsius)
+        {
+            let fahrenheit=(9/5)*celsius + 32;
+            return fahrenheit;
+        }
+        console.log(convert(100));
+        console.log(convert(97.6));
+    </script>
+</body>
+</html>
