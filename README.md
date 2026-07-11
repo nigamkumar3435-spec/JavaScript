@@ -3,28 +3,35 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 # 📖 Overview
 
-Welcome to my **JavaScript Learning Repository**!
+Welcome to my **JavaScript Learning Repository**! 🚀
 
-This repository documents my journey of learning **JavaScript**, starting from the fundamentals and gradually progressing toward building interactive web applications. It contains concept-based examples, browser programming exercises, DOM manipulation, event handling, reusable functions, logical programming challenges, and beginner-friendly mini projects.
+This repository documents my journey of learning JavaScript through practical coding exercises, browser-based examples, logical programming problems, and interactive mini projects.
 
-The repository is designed to strengthen problem-solving skills while providing hands-on experience with JavaScript for Frontend and Full Stack Web Development.
+The repository starts with JavaScript fundamentals and gradually progresses toward functions, objects, DOM selection, event handling, modular programming, and browser-based applications.
+
+The main goal is to build a strong JavaScript foundation for **Frontend Development, React.js, Node.js, and Full Stack Web Development**.
 
 ---
 
-# 🎯 Objectives
+# 🎯 Learning Objectives
 
-* Learn JavaScript from scratch
-* Understand core programming concepts
-* Practice logical problem solving
-* Learn DOM manipulation
-* Build interactive web pages
-* Develop reusable JavaScript functions
-* Prepare for React and Full Stack Development
+* Understand JavaScript fundamentals
+* Practice variables and expressions
+* Learn conditional programming
+* Understand logical and comparison operators
+* Explore JavaScript functions
+* Learn objects and object references
+* Understand destructuring
+* Practice DOM selection
+* Handle browser events
+* Write reusable and modular code
+* Build interactive JavaScript mini projects
+* Improve logical thinking and problem-solving skills
 
 ---
 
@@ -32,7 +39,7 @@ The repository is designed to strengthen problem-solving skills while providing 
 
 ## Languages
 
-* JavaScript (ES6+)
+* JavaScript
 * HTML5
 * CSS3
 
@@ -41,6 +48,7 @@ The repository is designed to strengthen problem-solving skills while providing 
 * Visual Studio Code
 * Git
 * GitHub
+* Browser Developer Tools
 
 ---
 
@@ -63,9 +71,13 @@ JavaScript/
 ├── functions.html
 ├── Practice.html
 │
+├── object.html
+├── Practicse7.html
+│
 ├── metroTicket.html
 ├── Cricket.html
 ├── cricketgame.html
+├── Criecketgame.html
 │
 └── README.md
 ```
@@ -76,142 +88,483 @@ JavaScript/
 
 ## 🔹 JavaScript Fundamentals
 
-* Variables
-* Data Types
-* Arithmetic Operators
-* Assignment Operators
-* Template Literals
-* Math Object
+Introduction to the basic building blocks of JavaScript.
+
+### Concepts Covered
+
+* JavaScript Syntax
+* Statements
 * Expressions
+* Console Output
+* Browser Alerts
+* Comments
+* Arithmetic Operations
+* String Concatenation
+* Template Literals
 
 ---
 
 ## 🔹 Variables & Expressions
 
-Learned concepts:
+Practice with JavaScript variables and mathematical expressions.
 
+### Concepts Covered
+
+* `let`
 * Variable Declaration
 * Variable Initialization
-* Updating Variables
-* Mathematical Calculations
-* Template Strings
-* String Concatenation
-
-Examples:
-
-* Arithmetic Operations
-* Total Calculator
 * Updating Variable Values
+* Arithmetic Calculations
+* Assignment Operators
+
+### Assignment Operators
+
+```javascript
+m += 1;
+m -= 1;
+m *= 4;
+m /= 4;
+```
 
 ---
 
 ## 🔹 Boolean & Comparison Operators
 
-Topics Covered
+Understanding Boolean values and comparisons.
+
+### Concepts Covered
 
 * Boolean Values
-* Comparison Operators
-* Equality (`==`)
-* Strict Equality (`===`)
-* Relational Operators
-* Conditional Expressions
+* Greater Than
+* Less Than
+* Equality
+* Strict Equality
+* Comparison Expressions
+
+### Operators
+
+```javascript
+==
+=== 
+>
+<
+>=
+<=
+```
+
+The examples also demonstrate the difference between:
+
+```javascript
+5 == '5'
+```
+
+and
+
+```javascript
+5 === '5'
+```
 
 ---
 
 ## 🔹 Conditional Statements
 
-Implemented
+Decision-making using JavaScript conditions.
 
-* if Statement
-* if...else
-* else if Ladder
-* Nested Conditions
+### Concepts Covered
 
-Example Programs
+* `if`
+* `else`
+* `else if`
+* Conditional Expressions
+
+### Practice Examples
 
 * Driving Eligibility Checker
-* Age Validation
-* User Decision Making
+* Age-Based Decisions
+* Metro Ticket Discount Logic
 
 ---
 
-## 🔹 Conditional Alternatives
+## 🔹 Alternative Conditional Operators
 
-JavaScript alternatives to traditional if statements.
+JavaScript provides shorter alternatives for certain conditional operations.
 
-Covered Concepts
+### Ternary Operator
 
-* Ternary Operator
-* Guard Operator (`||`)
-* Nullish Coalescing Operator (`??`)
+```javascript
+let result = age > 18 ? 'Adult' : 'Kid';
+```
+
+### Guard Operator
+
+```javascript
+let finalAge = age || 18;
+```
+
+### Nullish Coalescing Operator
+
+```javascript
+let finalAge = age ?? 18;
+```
 
 ---
 
 ## 🔹 Logical Operators
 
-Practiced
+Logical operators are used to combine multiple conditions.
 
-* AND (`&&`)
-* OR (`||`)
-* NOT (`!`)
+### Operators Covered
 
-Applications
+```javascript
+&&
+||
+!
+```
 
-* Age Validation
-* Driving Eligibility
-* Decision Making
+### Concepts Practiced
 
----
-
-## 🔹 Scope
-
-Concepts Learned
-
-* Block Scope
-* Variable Scope
-* Global Variables
-* Local Variables
-* Scope Accessibility
+* AND Conditions
+* OR Conditions
+* NOT Operator
+* Multiple Condition Validation
 
 ---
 
 ## 🔹 Truthy & Falsy Values
 
-Understanding JavaScript truthy and falsy behavior.
+Understanding how JavaScript evaluates values inside conditional statements.
 
-Examples include:
+### Falsy Values
 
-* Empty String
-* Undefined
-* Null
-* Zero
-* Boolean Values
+* `false`
+* `0`
+* `""`
+* `null`
+* `undefined`
+* `NaN`
+
+All other values are generally treated as truthy.
 
 ---
 
-## 🔹 Browser Console
+## 🔹 JavaScript Scope
 
-Using browser debugging tools.
+Understanding variable accessibility.
 
-Functions Practiced
+### Concepts Covered
+
+* Global Scope
+* Block Scope
+* Variable Accessibility
+* Variable Lifetime
+
+---
+
+# ⚙️ JavaScript Functions
+
+Functions help organize code into reusable blocks.
+
+## Concepts Covered
+
+* Function Declaration
+* Function Calling
+* Parameters
+* Arguments
+* Return Statements
+* Default Parameters
+* Function Reusability
+
+### Example
 
 ```javascript
-console.log()
+function sum(a, b) {
+    let sum = a + b;
+    return sum;
+}
 
-console.warn()
-
-console.error()
-
-alert()
+console.log(sum(3, 8));
 ```
 
 ---
 
-## 🔹 DOM Manipulation
+## 🔹 Default Parameters
 
-Selecting and interacting with HTML elements.
+Example:
 
-Methods Covered
+```javascript
+function greeting(name = '') {
+    console.log(`Namaste ${name} uncle`);
+}
+```
+
+---
+
+# 🧠 JavaScript Practice Problems
+
+The repository contains several beginner-friendly programming exercises.
+
+## Odd or Even Checker
+
+Determines whether a number is odd.
+
+```javascript
+function isOdd(num) {
+    let rem = num % 2;
+    return rem == 1;
+}
+```
+
+---
+
+## Larger Number Finder
+
+Returns the larger of two numbers.
+
+```javascript
+function larger(x, y) {
+    return x > y ? x : y;
+}
+```
+
+---
+
+## Celsius to Fahrenheit Converter
+
+Converts Celsius temperature to Fahrenheit.
+
+### Formula
+
+```text
+°F = (9/5 × °C) + 32
+```
+
+---
+
+# 📦 JavaScript Objects
+
+The repository introduces JavaScript objects and object-oriented data representation.
+
+## Object Creation
+
+```javascript
+let product = {
+    company: 'Mango',
+    price: 343,
+    item_name: 'T-Shirt'
+};
+```
+
+---
+
+## 🔹 Accessing Object Properties
+
+### Dot Notation
+
+```javascript
+product.company
+product.price
+```
+
+### Bracket Notation
+
+```javascript
+product['company']
+product['price']
+```
+
+---
+
+## 🔹 Updating Object Properties
+
+```javascript
+product.company = 'Banana';
+```
+
+---
+
+## 🔹 Deleting Object Properties
+
+```javascript
+delete product.company;
+```
+
+---
+
+## 🔹 Object Methods
+
+Objects can contain functions known as methods.
+
+```javascript
+let product = {
+    company: 'Mango',
+    price: 343,
+
+    displayPrice: function() {
+        console.log(`Price of the product is ${this.price}`);
+    }
+};
+```
+
+---
+
+## 🔹 `this` Keyword
+
+The `this` keyword refers to the current object.
+
+```javascript
+this.price
+```
+
+It is used to access properties of the object inside object methods.
+
+---
+
+## 🔹 Autoboxing
+
+JavaScript automatically allows primitive values to temporarily behave like objects.
+
+Examples:
+
+```javascript
+'This is JavaScript'.length
+
+'This is JavaScript'.toUpperCase()
+
+'This is JavaScript'.replace('This', 'It')
+```
+
+---
+
+## 🔹 Primitive vs Object Reference
+
+Primitive values are copied by value.
+
+```javascript
+let a = 5;
+let b = a;
+```
+
+Objects are assigned using references.
+
+```javascript
+let x = { num: 5 };
+let y = x;
+
+x.num = 8;
+```
+
+Changes made through one reference can affect the same object.
+
+---
+
+## 🔹 Object Comparison
+
+Objects are compared using references.
+
+```javascript
+let m = { pop: 'djf' };
+let n = { pop: 'djf' };
+
+console.log(m == n);
+console.log(m === n);
+```
+
+Even if object properties contain the same values, separate objects have different references.
+
+---
+
+## 🔹 Object Destructuring
+
+Object destructuring provides a shorter way to extract object properties.
+
+```javascript
+let product = {
+    company: 'Mango',
+    price: 343,
+    item_name: 'T-Shirt'
+};
+
+let { company } = product;
+
+let { price, item_name } = product;
+```
+
+---
+
+# 🧪 Object Practice Exercises
+
+Object-based exercises include:
+
+* Creating Product Objects
+* Object Reference Assignment
+* Updating Object Properties
+* Bracket Notation
+* Object Destructuring
+* Comparing Object References
+
+### Example Product Object
+
+```javascript
+let product = {
+    company: 'Myntra',
+    price: 343,
+    'item-name': 'Stripped Shirt',
+    delivery_time: 'today'
+};
+```
+
+---
+
+# 🌐 JavaScript and HTML Integration
+
+The repository demonstrates multiple ways to use JavaScript with HTML.
+
+## Internal JavaScript
+
+JavaScript written inside:
+
+```html
+<script>
+    console.log('Hello JavaScript');
+</script>
+```
+
+---
+
+## External JavaScript
+
+HTML:
+
+```html
+<script src="script.js"></script>
+```
+
+JavaScript:
+
+```javascript
+console.log('JavaScript loaded');
+```
+
+---
+
+# 🖥️ Browser Console & Debugging
+
+Browser console methods practiced:
+
+```javascript
+console.log()
+console.warn()
+console.error()
+alert()
+```
+
+These methods help with debugging and understanding program execution.
+
+---
+
+# 🌳 DOM Selection
+
+Introduction to selecting HTML elements using JavaScript.
 
 ```javascript
 document.getElementById()
@@ -223,130 +576,151 @@ document.querySelector()
 document.querySelectorAll()
 ```
 
----
+### Examples
 
-## 🔹 Event Handling
+```javascript
+document.getElementById('click');
 
-Examples include
+document.querySelector('h1');
 
-* Button Click Events
-* Inline Event Handlers
-* Alert Messages
-* User Interaction
-
----
-
-## 🔹 Functions
-
-Concepts Covered
-
-* Function Declaration
-* Function Calling
-* Parameters
-* Arguments
-* Return Statement
-* Default Parameters
-* Reusable Functions
-
-Example Functions
-
-* Sum of Two Numbers
-* Greeting Function
-* Random Number Generator
-
----
-
-## 🔹 Practice Exercises
-
-Hands-on JavaScript problems including:
-
-### Odd or Even Checker
-
-Checks whether a number is odd or even.
-
-### Larger Number Finder
-
-Returns the larger of two numbers.
-
-### Celsius to Fahrenheit Converter
-
-Converts temperature using
-
-```text
-°F = (9/5 × °C) + 32
+document.querySelectorAll('button');
 ```
 
-These exercises improve logical thinking and function implementation.
+---
+
+# 🖱️ Event Handling
+
+Basic browser event handling is implemented using button click events.
+
+Example:
+
+```html
+<button onclick="alert('Good Morning')">
+    Click
+</button>
+```
+
+### Concepts Covered
+
+* Button Events
+* `onclick`
+* User Interaction
+* Browser Alerts
 
 ---
 
 # 🎮 Mini Projects
 
-## 🏏 Cricket Game (Basic Version)
+## 🏏 Bat Ball Stump Game - Basic Version
 
-A simple browser-based Bat-Ball-Stump game.
+A simple browser-based game where the user chooses:
 
-### Features
+* Bat
+* Ball
+* Stump
 
-* User chooses Bat, Ball, or Stump
-* Computer generates a random move
-* Displays the winner
-* Uses alert boxes for results
+The computer randomly generates its move.
 
 ### Concepts Used
 
 * Variables
-* Math.random()
-* if...else
+* `Math.random()`
+* Conditional Statements
 * Template Literals
 * Event Handling
+* Alerts
 
 ---
 
-## 🏏 Cricket Game (Function-Based Version)
+## 🏏 Bat Ball Stump Game - Function-Based Version
 
-An improved version of the game built using reusable functions.
+The improved version separates the game logic into reusable functions.
+
+### Functions Used
+
+```javascript
+generateComputerChoice()
+
+getResult()
+
+showResult()
+```
+
+### Improvements
+
+* Reduced repeated code
+* Reusable game logic
+* Cleaner program structure
+* Modular programming
+
+---
+
+## 🏆 Bat Ball Stump Game - Score Tracking Version
+
+The advanced version introduces a score object.
+
+```javascript
+let score = {
+    win: 0,
+    lost: 0,
+    tie: 0
+};
+```
 
 ### Features
 
-* Random computer move generation
-* Modular game logic
-* Reusable functions
-* Cleaner code structure
+* Tracks User Wins
+* Tracks Computer Wins
+* Tracks Tie Games
+* Displays Current Score
+* Uses Object Methods
+* Uses Reusable Functions
 
-Functions Used
+### Score Method
 
-* generateComputerChoice()
-* getResult()
-* showResult()
+```javascript
+displayScore: function() {
+    return `Won:${score.win}, Lost:${score.lost}, Tie:${score.tie}`;
+}
+```
 
-This project demonstrates modular programming and code reusability.
+### Concepts Used
+
+* JavaScript Objects
+* Object Methods
+* Functions
+* Conditional Logic
+* Random Number Generation
+* Event Handling
+* Score Management
+* Modular Programming
 
 ---
 
 ## 🚇 Metro Ticket Discount Calculator
 
-A mini application that calculates ticket discounts based on passenger details.
+A JavaScript program that calculates passenger discounts based on age and gender.
 
-### Business Rules
+### Discount Rules
 
-* Children receive free tickets.
-* Female passengers receive discounted fares.
-* Senior citizens receive concessions.
+* Children below a specific age receive free travel
+* Female passengers receive a discount
+* Young passengers receive discounted fares
+* Senior citizens receive concessions
 
 ### Concepts Used
 
 * Variables
-* if...else
+* Conditional Statements
 * Logical Operators
 * Template Literals
-* Console Output
+* Business Logic
 
 ---
 
 # 🚀 How to Run
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/nigamkumar3435-spec/JavaScript.git
@@ -358,41 +732,41 @@ git clone https://github.com/nigamkumar3435-spec/JavaScript.git
 cd JavaScript
 ```
 
-Open any HTML file in your preferred browser.
+Open any `.html` file in your preferred browser.
 
-Example
+### Examples
 
 ```text
 Variables.html
-
 boolean.html
-
 functions.html
-
+object.html
+Practice.html
+Practicse7.html
 Cricket.html
-
 cricketgame.html
-
+Criecketgame.html
 metroTicket.html
 ```
 
+You can also use the **Live Server** extension in Visual Studio Code.
+
 ---
 
-# 🧠 Programming Concepts Learned
+# 🧠 Concepts Learned
 
-## JavaScript Basics
+## JavaScript Fundamentals
 
 * Variables
-* Data Types
-* Operators
 * Expressions
+* Operators
+* Template Literals
 
 ## Decision Making
 
 * Boolean Values
 * Comparison Operators
-* if...else
-* else if
+* Conditional Statements
 * Ternary Operator
 
 ## Logical Programming
@@ -404,30 +778,38 @@ metroTicket.html
 
 ## Functions
 
+* Function Declaration
 * Parameters
+* Arguments
 * Return Values
 * Default Parameters
-* Function Reusability
+* Reusable Functions
 
-## Browser APIs
+## Objects
 
-* alert()
-* console.log()
-* console.warn()
-* console.error()
+* Object Creation
+* Dot Notation
+* Bracket Notation
+* Object Methods
+* `this` Keyword
+* Object References
+* Object Comparison
+* Object Destructuring
+* Autoboxing
 
-## DOM Manipulation
+## Browser Programming
 
-* getElementById()
-* getElementsByClassName()
-* querySelector()
-* querySelectorAll()
-
-## Event Handling
-
-* Button Events
-* User Interaction
+* Console Methods
 * Alerts
+* DOM Selection
+* Event Handling
+
+## Programming Practices
+
+* Modular Programming
+* Code Reusability
+* Logical Problem Solving
+* Code Refactoring
 
 ---
 
@@ -436,58 +818,123 @@ metroTicket.html
 * JavaScript Fundamentals
 * Logical Thinking
 * Problem Solving
-* Browser Debugging
 * Function-Based Programming
-* DOM Manipulation
+* Object Manipulation
+* DOM Basics
 * Event Handling
+* Browser Debugging
+* Modular Programming
 * Code Reusability
 * Interactive Web Development
 
 ---
 
-# 📈 Learning Outcomes
+# 📈 Learning Progress
 
-This repository helped me understand:
+```text
+JavaScript Basics
+        ↓
+Variables & Operators
+        ↓
+Boolean & Conditions
+        ↓
+Logical Operators
+        ↓
+Truthy & Falsy Values
+        ↓
+Scope
+        ↓
+Functions
+        ↓
+Practice Problems
+        ↓
+Objects
+        ↓
+Object References
+        ↓
+Object Destructuring
+        ↓
+DOM Selection
+        ↓
+Event Handling
+        ↓
+Interactive Mini Projects
+```
 
-* JavaScript syntax and structure
-* Writing reusable functions
-* Browser APIs and debugging
-* DOM manipulation techniques
-* Event-driven programming
-* Conditional logic and decision making
-* Building interactive browser applications
-* Writing cleaner and modular JavaScript code
+---
+
+# 🔮 Future Enhancements
+
+The repository will continue expanding with:
+
+* Arrays
+* Loops
+* Strings
+* Advanced Objects
+* JSON
+* Local Storage
+* Date Object
+* Array Methods
+* Higher-Order Functions
+* ES6 Features
+* Classes
+* Modules
+* Promises
+* Async/Await
+* Fetch API
+* Form Validation
+* Calculator App
+* To-Do Application
+* Weather Application
+* Expense Tracker
+* Quiz Application
+* E-Commerce Cart
+* API-Based Projects
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome!
+Contributions and suggestions are welcome!
 
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit your changes
+5. Push the branch
+6. Open a Pull Request
 
 ---
 
 # 👨‍💻 Author
 
-**Nigam Kumar**
+## Nigam Kumar
 
 🎓 B.Tech – Computer Science Engineering
 🏫 Indore Institute of Science and Technology, Indore
 
 ### Connect With Me
 
-* GitHub: https://github.com/nigamkumar3435-spec
-* LinkedIn: https://www.linkedin.com/in/nigam-kumar01
+GitHub: https://github.com/nigamkumar3435-spec
+
+LinkedIn: https://www.linkedin.com/in/nigam-kumar01
 
 ---
 
 # ⭐ Support
 
-If you found this repository useful, please consider giving it a ⭐ on GitHub.
+If you found this repository helpful, consider giving it a ⭐ on GitHub.
+
+Your support motivates me to continue learning, practicing, and building more JavaScript projects.
 
 ---
+
+# 📜 License
+
+This repository is created for educational and learning purposes.
+
+Feel free to explore, learn from, and improve the code.
+
+---
+
+### 💻 "Mastering JavaScript one concept, one function, one object, and one project at a time." 🚀
