@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice Set</title>
+</head>
+<body>
+    <script>
+        //1.
+        let product = {
+            company: `Myntra`,
+            price: 343,
+            'item-name': 'Stripped Shirt',
+            delivery_time: `today`,
+        };
+        console.log(product);
+
+        //2.
+        let consumer = product;
+        console.log(consumer);
+
+        consumer.price = 453;
+        console.log(consumer);
+        console.log(product);
+
+        //3.
+        console.log(product['delivery_time']);
+
+        //4.
+       let object ={
+        message:'good job',
+        status:'complete',
+       };
+       console.log(object);
+       let {message}=object;
+       console.log(message);
+
+       /*//5.
+       function isIdenticalProduct(product1, product2)
+       {
+        
+       }*///This part is still to solve.
+    </script>    
+</body>
+</html>

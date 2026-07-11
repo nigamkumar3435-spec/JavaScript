@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+        /*let product={
+            company:'Mango',
+            price:343,
+            item_name: 'T-Shirt',
+        };
+        console.log(product);
+        console.log(typeof product);
 
+        // Accessing object using Dot Notation.
+        //console.log(product.company);
+        //console.log(product.price);
+        //console.log(product.item_name);
+
+        console.log(product['company']);
+        console.log(product['price']);
+        console.log(product['item_name']);
+
+
+        product.company='Banana';
+        console.log(product);
+        console.log(product.company);
+        
+        // Accessing object using Bracket Notation.
+        console.log(product['company']);
+        console.log(product['price']);
+        console.log(product['item_name']);
+
+        delete product.company;
+        console.log(product);
+        console.log(product.company);*/
+
+        /*let product={
+            company:'Mango',
+            price:343,
+            item_name: 'T-Shirt',
+            displayPrice: function(){
+                console.log(`Price of the product is ${this.price}`)
+            }
+        };
+
+        product.displayPrice();*/
+
+        //AutoBoxing
+
+        //console.log('This is JavaScript'.length);
+        //console.log('This is JavaScript'.toUpperCase());
+        //console.log('This is JavaScript'.replace('This','It'));
+
+       /* let a = 5;
+        let b = a;
+        console.log(`a=${a}, b=${b}`);
+        a = 8;
+        console.log(`a=${a}, b=${b}`);
+
+//Object Reference
+        let x = {num:5};
+        let y = x;
+        console.log(`x=${x.num}, y=${y.num}`);
+        x.num=8;
+        console.log(`x=${x.num}, y=${y.num}`);
+
+        let m = {pop:'djf'};
+        let n = {pop:`djf`};
+        console.log(m==n);
+        console.log(m===n);//these only checks references.*/
+
+        let product={
+            company:'Mango',
+            price:343,
+            item_name: 'T-Shirt',
+        };
+
+        let {company}=product;
+        console.log(company);
+
+        let {price, item_name}=product;
+        console.log(price, item_name);
+
+        
+    </script>
+</body>
+</html>
