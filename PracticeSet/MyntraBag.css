@@ -1,0 +1,13 @@
+.bag{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(190, 243, 190);
+    margin: 6px;
+    padding: 9px 19px;
+}
+.wishlist{
+    border-radius: 5px;
+    padding: 9px 45px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
