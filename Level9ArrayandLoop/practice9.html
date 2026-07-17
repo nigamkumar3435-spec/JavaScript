@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Exercise</title>
+</head>
+<body>
+    <script>
+
+        //1.
+        /*let arr=[5,6];
+        console.log(arr);
+        arr.unshift(4);// insert at beginning
+        console.log(arr);
+        arr.push(7);// insert at end
+        console.log(arr);*/
+
+        //2.
+        //My answer..
+        /*let arr=[5,6];
+        console.log(arr);
+        function pos()
+        {
+            return arr.push(7);
+        }
+        pos();
+        console.log(arr);*/
+
+        //Answer..
+        /*function getElement(arr, positon)
+        {
+            return arr[positon-1];
+        }
+        let arr=[1,2,3,4,5,6,7,8,9,10,11,12];
+        console.log(getElement(arr, 10));
+        console.log(getElement(arr, 13));//undefined because there is no index 13 in array.*/
+
+        //3.
+        /*function arrCopy(arr)
+        {
+            return arr.slice(0, arr.length);
+        }
+        let arr = [2,5,3,7,6];
+        console.log(arrCopy(arr));
+
+        //to check if this is really the copy of arr.
+        let arr2=arrCopy(arr);
+        arr2[0] = null;
+        console.log(arr);
+        console.log(arr2);*/
+
+        //4.
+        /*function isPrime(num)
+        {
+            for(let i=2;i<num;i++)
+            {
+                if(num%i === 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        let num=2;
+        let i=0;
+        while(i<5)
+        {
+            if(isPrime(num))
+            {
+                console.log(num);
+                i++;               
+            }
+            num++;
+        }*/
+
+        //5.
+        /*function isPrime(num)
+        {
+            for(let i=2;i<num;i++)
+            {
+                if(num%i === 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        let num=2;
+        let i=0;
+        while(true)
+        {
+            if(isPrime(num))
+            {
+                console.log(num);
+                i++; 
+                if(i>=5)
+                {
+                    break;
+                }              
+            }
+            num++;
+        }*/
+
+        //6.
+        /*for(let i=10;i>0;i--)
+        {
+            console.log(i);
+        }
+
+        //either we can use this also.
+        for(let i=0;i<10;i++)
+        {
+            console.log(10-i);
+        }*/
+
+        //7.
+        /*let arr=[1,-6,5,7,-98];
+        for(let i=0;i<arr.length;i++)
+        {
+            if(arr[i]<0)
+            {
+                continue;               
+            }
+            console.log(arr[i]);
+        }*/
+
+        //8.
+        let arr=['KG','Coding','JavaScript','Course','is','Best.'];
+        /*let result='';
+
+        for(let i=0;i<arr.length;i++)
+        {
+           result += arr[i] + " "; 
+        }
+        console.log(result);*/
+
+        //method for directly concatenating strings.............
+        console.log(arr.join(" "));
+        console.log(arr.join(","));
+    </script>
+</body>
+</html>
