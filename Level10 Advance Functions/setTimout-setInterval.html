@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>setTimeout and setInterval</title>
+</head>
+<body>
+    <script>
+        //setTimeout(function () {
+        //    console.log("Let's wake up at 4am");
+        //}, 5000);       
+        
+        //setTimeout(() => console.log("Let's wake up at 4am"),3000);
+        //console.log('Hey wake up');
+
+        //let alarm = () => console.log(`Subah ho gayi, uth jao`);
+        //let timerId = setTimeout(alarm, 5000);
+        //console.log(`Alarm set with timerID: ${timerId}`);
+        //clearTimeout(timerId);
+
+        let alarm = () => console.log(`Subah ho gayi, uth jao. ${new Date()}`);
+        let intervalId = setInterval(alarm, 1000);
+        console.log(`Alarm set with intervalID: ${intervalId}`);
+        //clearInterval(intervalId);
+
+        setTimeout(() => clearInterval(intervalId), 5000);
+    </script>
+</body>
+</html>
