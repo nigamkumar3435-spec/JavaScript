@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice Exercise 10</title>
+    <style>
+        .subscribe{
+            height: 20px;
+            width: 80px;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(215, 59, 59);
+            cursor: pointer;
+        }
+
+        .double{
+            font-size: 30px;
+            height: 40px;
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 3..<button class="subscribe" onclick="setTimeout(doubleTheSize, 2000);">Subscribe</button> -->
+
+    <button class="subscribe" onclick="setTimeout(doubleTheSize, 2000);">Subscribe</button>
+    <script>
+        //4.
+        let buttonELement = document.querySelector('.subscribe');
+        buttonELement.addEventListener('click', event=>
+            setTimeout(doubleTheSize, 2000))
+        
+        function doubleTheSize(){
+            buttonELement.classList.add('double');
+        }    
+
+        //3.
+        //function doubleTheSize(){
+        //    let buttonELement = document.querySelector('.subscribe');
+        //    buttonELement.classList.add('double');
+        //}
+
+        //1.
+        //let multiply = function(num1, num2)
+        //{
+        //    return num1*num2;
+        //}
+        //console.log(multiply(3,5));
+
+        //let multiply = (num1, num2) => num1*num2;
+        //console.log(multiply(4,5));
+
+        //2.
+        /*let printGreet = () => console.log ('Namaste');
+
+        let runTwice = inputFunction => 
+        {
+            inputFunction();
+            inputFunction();
+        };
+        runTwice(printGreet);*/
+
+        //5.
+        let arr = [1,2,3,4,5,6,7,8,9,10];
+        let sum = 0;
+        
+        arr.forEach(num => sum += num);
+        console.log(sum);
+
+        //6.
+        let arr1 = [1,2,3,4];
+        let squares = arr1.map(num => num*num);
+        console.log(squares);
+        
+    </script>
+</body>
+</html>
