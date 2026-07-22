@@ -5,32 +5,34 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 
+---
+
 # 📖 Overview
 
-This repository contains my complete JavaScript learning journey, starting from JavaScript fundamentals and progressing to DOM manipulation, browser APIs, modern ES6 concepts, asynchronous programming, and interactive web applications.
+This repository contains my complete JavaScript learning journey, beginning with the fundamentals of the language and progressing toward building interactive web applications.
 
-The repository is organized level-wise, making it easy to follow the progression from beginner to intermediate JavaScript concepts.
-
----
-
-# 🎯 Objectives
-
-* Learn JavaScript Fundamentals
-* Master DOM Manipulation
-* Build Interactive Web Applications
-* Practice Problem Solving
-* Understand Browser APIs
-* Learn Modern ES6 Features
-* Prepare for React.js Development
+The repository is organized level-wise, where each folder focuses on a specific JavaScript concept along with practice exercises and mini projects. By the end of this repository, I have gained hands-on experience with DOM manipulation, browser APIs, modern JavaScript (ES6), local storage, event handling, and dynamic web applications.
 
 ---
 
-# 🛠️ Technologies Used
+# 🎯 Learning Objectives
+
+* Learn JavaScript from scratch
+* Understand programming logic
+* Build interactive web pages
+* Practice DOM manipulation
+* Work with browser APIs
+* Develop real-world mini projects
+* Prepare for React.js and Full Stack Development
+
+---
+
+# 🛠️ Tech Stack
 
 * JavaScript (ES6+)
 * HTML5
 * CSS3
-* VS Code
+* Visual Studio Code
 * Git & GitHub
 
 ---
@@ -40,54 +42,43 @@ The repository is organized level-wise, making it easy to follow the progression
 ```text
 JavaScript-main/
 │
-├── JavaScript Basics/
-│
-├── Level4Variables/
-│
-├── Level5-Ifelseboolean/
-│
-├── Level6Functions/
-│
-├── Level7Objects/
-│
-├── Level8JSONLocalStorageDateandDom/
-│
-├── Level9ArrayandLoop/
-│
-├── Level10 Advance Functions/
-│
-├── PracticeSet/
-│
-├── ProjectCalculator/
-│
-├── ProjectTODO/
-│
-└── README.md
+├── JavaScript Basics
+├── Level4Variables
+├── Level5-Ifelseboolean
+├── Level6Functions
+├── Level7Objects
+├── Level8JSONLocalStorageDateandDom
+├── Level9ArrayandLoop
+├── Level10 Advance Functions
+├── PracticeSet
+├── ProjectCalculator
+├── ProjectTODO
+└── 11 Template Myntra Functional Clone
 ```
 
 ---
 
-# 📚 Topics Covered
+# 📚 Concepts Covered
 
 ## 📌 JavaScript Basics
 
 * Introduction to JavaScript
-* Internal JavaScript
-* External JavaScript
-* Browser Console
-* Alerts
-* HTML Integration
+* Internal & External JavaScript
+* Console Output
+* Variables
+* Comments
 
 ---
 
-## 📌 Variables & Data Types
+## 📌 Variables & Operators
 
 * Variables
-* Primitive Data Types
+* Data Types
 * Arithmetic Operators
 * Assignment Operators
 * Expressions
 * Template Literals
+* Practice Exercises
 
 ---
 
@@ -97,11 +88,16 @@ JavaScript-main/
 * Comparison Operators
 * if Statement
 * if...else
-* else if
+* else-if Ladder
 * Ternary Operator
 * Logical Operators
 * Truthy & Falsy Values
-* Scope
+* Variable Scope
+
+### Mini Projects
+
+* 🏏 Bat Ball Stump Game
+* 🚇 Metro Ticket Discount Calculator
 
 ---
 
@@ -111,8 +107,11 @@ JavaScript-main/
 * Parameters
 * Return Values
 * Default Parameters
-* Modular Programming
 * Function Reusability
+
+### Project
+
+* Cricket Game using Functions
 
 ---
 
@@ -122,9 +121,12 @@ JavaScript-main/
 * Properties
 * Methods
 * `this` Keyword
-* Object References
 * Object Destructuring
-* Autoboxing
+* Object References
+
+### Project
+
+* Cricket Game using Objects
 
 ---
 
@@ -132,10 +134,13 @@ JavaScript-main/
 
 * JSON.stringify()
 * JSON.parse()
-* Local Storage
-* Browser Storage
+* Browser Local Storage
 * Date Object
-* Dynamic DOM Manipulation
+* DOM Manipulation
+
+### Project
+
+* Cricket Game with Persistent Score using Local Storage
 
 ---
 
@@ -143,9 +148,7 @@ JavaScript-main/
 
 * Arrays
 * Array Traversal
-* Array Methods
-* Loops
-* Nested Loops
+* Looping Techniques
 * Practice Problems
 
 ---
@@ -155,99 +158,55 @@ JavaScript-main/
 * Arrow Functions
 * Anonymous Functions
 * Event Listeners
-* `forEach()`
-* `setTimeout()`
-* `setInterval()`
+* Array Methods
+* forEach()
+* setTimeout()
+* setInterval()
 
 ---
 
-# 🎮 Mini Projects
+# 💻 Projects
 
-### 🏏 Bat Ball Stump Game
+## 🧮 Calculator
 
-Three progressively improved versions demonstrating:
-
-* Conditional Logic
-* Functions
-* Objects
-* Local Storage
-* Score Tracking
-
----
-
-### 🚇 Metro Ticket Discount Calculator
-
-Implements age and gender-based ticket discount logic using conditional statements.
-
----
-
-### 🧮 Calculator
-
-A browser-based calculator built using HTML, CSS, and JavaScript.
+A simple calculator built using HTML, CSS, and JavaScript.
 
 **Features**
 
-* Number Input
-* Arithmetic Operations
-* Clear Screen
-* Responsive UI
+* Basic arithmetic operations
+* Interactive interface
+* Responsive design
 
 ---
 
-### ✅ To-Do List Application
+## ✅ To-Do List Application
 
-A task management application built using JavaScript.
+A task management application demonstrating DOM manipulation.
 
 **Features**
 
 * Add Tasks
 * Delete Tasks
-* Dynamic DOM Updates
-* Interactive User Interface
+* Dynamic Updates
+* Interactive UI
 
 ---
 
-# 💡 Skills Developed
+## 🛍️ Myntra Functional Clone
 
-* JavaScript Fundamentals
-* DOM Manipulation
-* Browser APIs
-* Event Handling
-* Object-Oriented Programming
-* Problem Solving
-* Modular Programming
-* JSON Handling
-* Local Storage
-* Asynchronous JavaScript
-* Interactive Web Development
+A functional shopping interface inspired by Myntra.
 
----
+### Features
 
-# 📈 Learning Roadmap
-
-```text
-JavaScript Basics
-        ↓
-Variables
-        ↓
-Conditions
-        ↓
-Functions
-        ↓
-Objects
-        ↓
-Date & JSON
-        ↓
-Local Storage
-        ↓
-Arrays & Loops
-        ↓
-Advanced Functions
-        ↓
-Mini Projects
-        ↓
-React.js
-```
+* Product Listing
+* Shopping Bag
+* Add to Bag
+* Remove from Bag
+* Dynamic Rendering
+* Local Storage Integration
+* Separate Bag Page
+* Modular JavaScript
+* Responsive Layout
 
 ---
 
@@ -259,7 +218,7 @@ Clone the repository:
 git clone https://github.com/nigamkumar3435-spec/JavaScript.git
 ```
 
-Navigate to the project:
+Move into the project:
 
 ```bash
 cd JavaScript
@@ -269,20 +228,33 @@ Open any HTML file in your browser or use the **Live Server** extension in Visua
 
 ---
 
-# 🔮 Future Enhancements
+# 📈 Skills Acquired
+
+* JavaScript Fundamentals
+* DOM Manipulation
+* Browser APIs
+* Event Handling
+* JSON Handling
+* Local Storage
+* Array Operations
+* Object-Oriented Programming
+* ES6 Features
+* Responsive Web Development
+* Problem Solving
+
+---
+
+# 🔮 Future Learning
 
 * ES6 Modules
 * Promises
 * Async/Await
 * Fetch API
 * REST APIs
-* Form Validation
-* Weather App
-* Expense Tracker
-* Notes App
-* Quiz Application
-* E-Commerce Cart
-* React.js Projects
+* React.js
+* Node.js
+* Express.js
+* MongoDB
 
 ---
 
@@ -293,9 +265,8 @@ Open any HTML file in your browser or use the **Live Server** extension in Visua
 🎓 B.Tech – Computer Science Engineering
 🏫 Indore Institute of Science and Technology, Indore
 
-**GitHub:** [https://github.com/nigamkumar3435-spec](https://github.com/nigamkumar3435-spec)
-
-**LinkedIn:** [https://www.linkedin.com/in/nigam-kumar01](https://www.linkedin.com/in/nigam-kumar01)
+* GitHub: https://github.com/nigamkumar3435-spec
+* LinkedIn: https://www.linkedin.com/in/nigam-kumar01
 
 ---
 
@@ -303,4 +274,4 @@ Open any HTML file in your browser or use the **Live Server** extension in Visua
 
 If you found this repository helpful, please consider giving it a ⭐ on GitHub.
 
-Happy Coding! 🚀
+**Happy Coding! 🚀**
